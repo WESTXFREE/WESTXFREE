@@ -45,41 +45,36 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "SILENT AIM",
+   Name = "WILD WEST",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/AKAK/main/WILD"))()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/adwawd/main/adw"))()
    end,
 })
 
 local Button2 = MainTab:CreateButton({
-   Name = "INSTANT RELOAD",
+   Name = "PHANTOM FORCES",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/AKAK/main/WILD"))()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/adwawd/main/adw"))()
    end,
 })
 
 local Button3 = MainTab:CreateButton({
-   Name = "INF STAMINA",
+   Name = "ARSENAL",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/AKAK/main/WILD"))()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/adwawd/main/adw"))()
    end,
 })
 
 local Button4 = MainTab:CreateButton({
-   Name = "HORSE FLY",
+   Name = "WESTBOUND",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/AKAK/main/WILD"))()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/adwawd/main/adw"))()
    end,
 })
 
 local Button5 = MainTab:CreateButton({
-   Name = "NOCLIP",
+   Name = "YBA",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/AKAK/main/WILD"))()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/WESTXFREE/adwawd/main/adw"))()
    end,
 })
